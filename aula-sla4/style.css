@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: grey;
+    background-image: url(./img/nike.jpg);
+    text-align: center;
+}
