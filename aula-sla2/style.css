@@ -1,0 +1,25 @@
+
+
+
+/*body {
+    background-image: url(http://dslv9ilpbe7p1.cloudfront.net/OLpcOTrMh50ztPPAVJJyGQ_store_banner_image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+* {
+    padding: 0;
+    margin: 0;
+}
+.banner  {
+    text-align: center;
+    background-image: url(http://dslv9ilpbe7p1.cloudfront.net/OLpcOTrMh50ztPPAVJJyGQ_store_banner_image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+button {
+    border-radius: 17px;
+    padding: 11px 12px;
+    background-color: yellow;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>Doces da Cin</header>
+    <form action="/registro" method="POST">
+    
+        <div class="cx-form">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        
+        <div>
+            <label for="doces"><h2>Selecione seus Doces</h2></label>
+        </div>
+
+        <div>
+            <input type="number" name="daifuku" id="daifuku">
+            <label for="">Ichigo Daifuku</label>
+            <h4>(moranco com doce de feijao)</h4>
+        </div>
+
+        <div>
+            <input type="number" name="dango" id="dango">
+            <label type="">Dango</label>
+            <h4>(bolinhos de arroz)</h4>
+        </div>
+
+        <div>
+            <input type="number" name="dorayaki" id="dorayaki">
+            <label for="">Dorayaki</label>
+            <h4>(panqueca com doce de feijao)</h4>
+        </div>
+
+        <div>
+            <input type="number" name="pokcy" id="pokcy">
+            <label for="">Pocky</label>
+            <h4>(biscoito asiatico)</h4>
+        </div>
+
+        <div>
+            <label for="ocha"><h2>Acompanha Ocha?</h2></label>
+            <input type="radio" name="ocha" id="ocha">
+            <label for="sim">Sim</label>
+            <input type="radio" name="ocha">
+            <label for="nao" id="nao">Não</label>
+        </div>
+    
+        <div>
+            <label for="descartavel1"><h2></h2>Aceita descartaveis?</h2></label>
+            <input type="radio" name="descartavel1" id="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="descartavel1" id="nao">
+            <label for="">Não</label>
+        </div>
+    
+            <div>
+                <label for="pagamento"><h2>Forma de Pagamento</h2></label>
+                <input type="radio" name="pagamento" id="credito" checked>
+                <label for="cretido">Crédito</label>
+                <input type="radio" name="pagamento" id="debito">
+                <label for="debito">Débito</label>
+            </div>
+    </form>
+    
+</body>
+
+</html>
