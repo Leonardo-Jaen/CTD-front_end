@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 400px;
+    background-color: rgb(77, 77, 77);
+}
+
+.botao {
+    border: 3px dashed #000;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 100px;
+    background-color: #fff;
+    cursor: pointer;
+    animation: botao-chique 1s infinite;
+}
+
+.botao:hover {
+    border-color: rgb(255, 0, 221);
+}
+
+@keyframes botao-chique {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
